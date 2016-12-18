@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ADE85581DD0828A0064A466 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE85571DD0828A0064A466 /* AppDelegate.m */; };
+		8ADE855B1DD0828A0064A466 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE855A1DD0828A0064A466 /* main.m */; };
+		8ADE855E1DD0828A0064A466 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE855D1DD0828A0064A466 /* ViewController.m */; };
+		8ADE85601DD0828A0064A466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE855F1DD0828A0064A466 /* Assets.xcassets */; };
+		8ADE85631DD0828A0064A466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ADE85611DD0828A0064A466 /* Main.storyboard */; };
+		8ADE856C1DD083BC0064A466 /* TextFieldDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE856B1DD083BC0064A466 /* TextFieldDrag.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8ADE85531DD0828A0064A466 /* NickyStaticLibCombiner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NickyStaticLibCombiner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADE85561DD0828A0064A466 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8ADE85571DD0828A0064A466 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8ADE855A1DD0828A0064A466 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ADE855C1DD0828A0064A466 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8ADE855D1DD0828A0064A466 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8ADE855F1DD0828A0064A466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ADE85621DD0828A0064A466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ADE85641DD0828A0064A466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ADE856A1DD083BC0064A466 /* TextFieldDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldDrag.h; sourceTree = "<group>"; };
+		8ADE856B1DD083BC0064A466 /* TextFieldDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldDrag.m; sourceTree = "<group>"; };
+		8ADE856D1DD087DB0064A466 /* submit.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = submit.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ADE85501DD0828A0064A466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ADE854A1DD0828A0064A466 = {
+			isa = PBXGroup;
+			children = (
+				8ADE85551DD0828A0064A466 /* NickyStaticLibCombiner */,
+				8ADE85541DD0828A0064A466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ADE85541DD0828A0064A466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ADE85531DD0828A0064A466 /* NickyStaticLibCombiner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ADE85551DD0828A0064A466 /* NickyStaticLibCombiner */ = {
+			isa = PBXGroup;
+			children = (
+				8ADE856A1DD083BC0064A466 /* TextFieldDrag.h */,
+				8ADE856B1DD083BC0064A466 /* TextFieldDrag.m */,
+				8ADE85561DD0828A0064A466 /* AppDelegate.h */,
+				8ADE85571DD0828A0064A466 /* AppDelegate.m */,
+				8ADE855C1DD0828A0064A466 /* ViewController.h */,
+				8ADE855D1DD0828A0064A466 /* ViewController.m */,
+				8ADE855F1DD0828A0064A466 /* Assets.xcassets */,
+				8ADE85611DD0828A0064A466 /* Main.storyboard */,
+				8ADE85641DD0828A0064A466 /* Info.plist */,
+				8ADE85591DD0828A0064A466 /* Supporting Files */,
+				8ADE856D1DD087DB0064A466 /* submit.sh */,
+			);
+			path = NickyStaticLibCombiner;
+			sourceTree = "<group>";
+		};
+		8ADE85591DD0828A0064A466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ADE855A1DD0828A0064A466 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ADE85521DD0828A0064A466 /* NickyStaticLibCombiner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ADE85671DD0828A0064A466 /* Build configuration list for PBXNativeTarget "NickyStaticLibCombiner" */;
+			buildPhases = (
+				8ADE854F1DD0828A0064A466 /* Sources */,
+				8ADE85501DD0828A0064A466 /* Frameworks */,
+				8ADE85511DD0828A0064A466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NickyStaticLibCombiner;
+			productName = NickyStaticLibCombiner;
+			productReference = 8ADE85531DD0828A0064A466 /* NickyStaticLibCombiner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ADE854B1DD0828A0064A466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = NickyTsui;
+				TargetAttributes = {
+					8ADE85521DD0828A0064A466 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8ADE854E1DD0828A0064A466 /* Build configuration list for PBXProject "NickyStaticLibCombiner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ADE854A1DD0828A0064A466;
+			productRefGroup = 8ADE85541DD0828A0064A466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ADE85521DD0828A0064A466 /* NickyStaticLibCombiner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ADE85511DD0828A0064A466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADE85601DD0828A0064A466 /* Assets.xcassets in Resources */,
+				8ADE85631DD0828A0064A466 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ADE854F1DD0828A0064A466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ADE855E1DD0828A0064A466 /* ViewController.m in Sources */,
+				8ADE856C1DD083BC0064A466 /* TextFieldDrag.m in Sources */,
+				8ADE855B1DD0828A0064A466 /* main.m in Sources */,
+				8ADE85581DD0828A0064A466 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8ADE85611DD0828A0064A466 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ADE85621DD0828A0064A466 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ADE85651DD0828A0064A466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8ADE85661DD0828A0064A466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8ADE85681DD0828A0064A466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NickyStaticLibCombiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickytsui.NickyStaticLibCombiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8ADE85691DD0828A0064A466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NickyStaticLibCombiner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nickytsui.NickyStaticLibCombiner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ADE854E1DD0828A0064A466 /* Build configuration list for PBXProject "NickyStaticLibCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ADE85651DD0828A0064A466 /* Debug */,
+				8ADE85661DD0828A0064A466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ADE85671DD0828A0064A466 /* Build configuration list for PBXNativeTarget "NickyStaticLibCombiner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ADE85681DD0828A0064A466 /* Debug */,
+				8ADE85691DD0828A0064A466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ADE854B1DD0828A0064A466 /* Project object */;
+}
